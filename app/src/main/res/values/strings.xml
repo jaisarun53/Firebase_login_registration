@@ -8,4 +8,17 @@
 <string name="login_progress_signing_in">Signing in...</string>
 <string name="click_to_login">Back to login</string>
 <string name="logout" >logout</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="nav_home">nav_home</string>
+    <string name="hint_phone_number">Enter phone number</string>
+    <string name="hint_message">Enter your message</string>
+    <string name="send_sms_button">Send SMS</string>
+    <string name="sms_permission_granted">SMS permission granted</string>
+    <string name="sms_permission_denied">SMS permission denied</string>
+    <string name="sms_sent_success">SMS sent successfully!</string>
+    <string name="empty_fields">Please enter both phone number and message</string>
+
+
+
 </resources>

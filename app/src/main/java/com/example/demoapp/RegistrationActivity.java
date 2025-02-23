@@ -33,7 +33,7 @@ public class RegistrationActivity extends AppCompatActivity {
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
-            Intent intent= new Intent(getApplicationContext(),MainActivity.class );
+            Intent intent= new Intent(getApplicationContext(),LoginActivity.class );
             startActivity(intent);
             finish();
         }
@@ -54,7 +54,7 @@ public class RegistrationActivity extends AppCompatActivity {
         mRegisterButton = findViewById(R.id.register_button);
         textview=findViewById(R.id.loginNow);
 
-        mRegisterButton.setOnClickListener(new View.OnClickListener(){
+        textview.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 Intent intent= new Intent(getApplicationContext(),LoginActivity.class );
                 startActivity(intent);
